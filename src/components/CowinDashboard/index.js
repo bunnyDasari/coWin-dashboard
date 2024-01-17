@@ -86,11 +86,11 @@ class CowinDashboard extends Component {
   renderMainFun = () => {
     const {statusReq} = this.props
     switch (statusReq) {
-      case statusReq.success:
+      case apiStatusconstants.success:
         return renderData()
-      case statusReq.failure:
+      case apiStatusconstants.failure:
         return renderDataFail()
-      case statusReq.inPrograss:
+      case apiStatusconstants.inPrograss:
         return renderLoder()
       default:
         return null
