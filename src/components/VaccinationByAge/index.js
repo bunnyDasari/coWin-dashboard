@@ -1,12 +1,5 @@
 // Write your code here
-import {
-  BarChart,
-  Bar,
-  XAxis,
-  YAxis,
-  Legend,
-  ResponsiveContainer,
-} from 'recharts'
+import {PieChart, Pie, Legend, Cell} from 'recharts'
 const VaccinationByAge = props => {
   const {vacciantionPiedata} = props
   return (
